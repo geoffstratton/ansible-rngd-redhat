@@ -1,0 +1,28 @@
+---
+- name: Configure rngd to use random number source device
+  template:
+    src: rngd_sysconfig.j2
+    dest: /etc/sysconfig/rngd
+    owner: root
+    group: root
+    mode: 0644
+  tags:
+    - rngd
+
+- name: Configure rngd to use random number source device
+  template:
+    src: rngd_service.j2
+    dest: /etc/systemd/system/rngd.service
+    owner: root
+    group: root
+    mode: 0644
+  tags:
+    - rngd
+
+- name: Enable and start the rngd service
+  service:
+    name: rngd
+    state: started
+    enabled: yes
+  tags:
+    - rngd
