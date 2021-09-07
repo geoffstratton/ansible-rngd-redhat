@@ -1,10 +1,10 @@
 Role Name
 =========
-ansible-resolv-conf-redhat
+ansible-rngd-redhat
 
 Description
 ---------------
-Ansible role to set up the domain name resolution service on Red Hat Linux systems.
+Ansible role to set up the random number generation entropy gathering daemon on Red Hat Linux systems.
 
 This role was developed and tested on a Mint 20.2 system using [Molecule 3](https://molecule.readthedocs.io/en/latest/) with the Docker driver and Red Hat 7 and 8 containers from [Red Hat's Container Registry](https://catalog.redhat.com/software/containers/explore). A simple Dockerfile and configuration are included.
 
