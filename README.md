@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/geoff0805/ff674aaa-bd51-4d0b-927c-6be0e8257191/bdba51c2-dfcb-408e-aeff-54abcd3dea02/_apis/work/boardbadge/9bc81348-e1f4-4aaa-923a-1fbbdfdfd5d8)](https://dev.azure.com/geoff0805/ff674aaa-bd51-4d0b-927c-6be0e8257191/_boards/board/t/bdba51c2-dfcb-408e-aeff-54abcd3dea02/Microsoft.RequirementCategory)
 Role Name
 =========
 ansible-rngd-redhat
